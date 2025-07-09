@@ -21,7 +21,7 @@
 
         <!-- LANDING SCREEN -->
         <item id="landingHead">Instituto de Pesquisa Econômica Aplicada</item>
-        <item id="welcomeText">{{{h2}}}Questionário de Percepções a respeito de Avaliação de Políticas Públicas.{{{/h2}}}{{{br/}}}{{{br/}}} A metodologia Q é uma técnica que combina aspectos qualitativos e quantitativos para investigar como as pessoas percebem determinados temas. Por meio dela, solicitamos que você organize um conjunto de afirmações de acordo com o quanto mais ou menos concorda com cada uma, promovendo uma reflexão estruturada sobre o tema em questão. Abaixo, é disponibilizado um vídeo demonstrativo que explica como realizar esse procedimento. Assistir ao vídeo não é obrigatório, e você poderá ver instruções sempre que quiser, clicando no botão de ajuda localizado na parte inferior da tela. {{{br/}}}{{{br/}}}{{{p}}}{{{/p}}}{{{br/}}}{{{br/}}}{{{br/}}} {{{center}}}{{{iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lMy4ARVEcCI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen}}}{{{/iframe}}}{{{/center}}}</item>
+        <item id="welcomeText">{{{h2}}}Questionário de Percepções a respeito de Avaliação de Políticas Públicas - Parte 1.{{{/h2}}}{{{br/}}}{{{br/}}} A metodologia Q é uma técnica que combina aspectos qualitativos e quantitativos para investigar como as pessoas percebem determinados temas. Por meio dela, solicitamos que você organize um conjunto de afirmações de acordo com o quanto mais ou menos concorda com cada uma, promovendo uma reflexão estruturada sobre o tema em questão. Abaixo, é disponibilizado um vídeo demonstrativo que explica como realizar esse procedimento. Assistir ao vídeo não é obrigatório, e você poderá ver instruções sempre que quiser, clicando no botão de ajuda localizado na parte inferior da tela. Clique no botão &quot;iniciar&quot;, no canto direito inferior da tela, para prosseguir. {{{br/}}}{{{br/}}}{{{p}}}{{{/p}}}{{{br/}}}{{{br/}}}{{{br/}}} {{{center}}}{{{iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lMy4ARVEcCI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen}}}{{{/iframe}}}{{{/center}}}</item>
 
         <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
         <item id="accessCodeText">Access Code</item>
@@ -30,7 +30,7 @@
         <item id="loginPartIdText">Entre com seu apelido/código</item>
         <item id="accessCodeWarning"></item>
         <item id="partIdWarning"></item>
-        <item id="loginHeaderText">Por favor, escolha um apelido/código. Esse mesmo apelido/código deverá ser inserido em cada um dos três questionários a serem respondidos. A identidade dos respondentes será preservada; esse código tem apenas função de codificar o participante para futuras analises de dados.</item>
+        <item id="loginHeaderText">No campo abaixo, digite um apelido/código de sua preferência. Esse mesmo apelido/código deverá ser inserido em cada um dos três questionários a serem respondidos. Exemplos: bola, yuh1, 1245h, erof2 etc. A identidade dos respondentes será preservada; o código/apelido tem apenas função de codificar o participante para futuras análises de dados.</item>
         <item id="loginWelcomeText">{{{center}}}{{{h3}}}Seja bem vindo(a)!{{{/h3}}}{{{/center}}}{{{br/}}} Agradecemos sua participação nessa pesquisa.</item>
         <item id="landingHelpModalHead">Bem vindo(a)!</item>
         <item id="landingHelpModalText">Obrigado por participar dessa pesquisa. Por favor clique em &quot;{{{b}}}Continue{{{/b}}}&quot; no canto inferior direito da sua tela e continue para a próxima etapa.</item>
@@ -72,8 +72,8 @@
         <item id="presortPreventNavModalText">Por favor, termine a triagem preliminar antes de passar para a próxima etapa.</item>
         <item id="presortFinishedModalHead">Classificação Preliminar Completa</item>
         <item id="presortFinishedModalText">Você completou esta etapa. Por favor, clique no botão &quot;Continuar&quot; no canto inferior direito da página para ir para a próxima etapa.</item>
-        <item id="presortOnPageInstructions">{{{div style=&quot;font-size: 24px&quot;}}} Clique e arraste para os cards ou pressione &quot;1&quot;, &quot;2&quot; ou &quot;3&quot;. {{{/div}}}</item>
-        <item id="presortImageSortInstructions">To enlarge an image, hover your mouse pointer over it and double-click. {{{br/}}}{{{br/}}} To compare images, {{{u}}}press and hold{{{/u}}} the {{{b}}}{{{i}}}Shift{{{/i}}}{{{/b}}} key on your keyboard and then double-click on TWO images with your mouse.</item>
+        <item id="presortOnPageInstructions">{{{div style=&quot;font-size: 24px&quot;}}} Clique no card que contém a afirmação e arraste-o para os campos 1, 2 ou 3, de acordo com sua opinião. {{{/div}}}</item>
+        <item id="presortImageSortInstructions"></item>
 
         <!-- SORT: sorting (leave blank to skip popup) -->
         <item id="sortHelpModalHead">Etapa 2 de 2</item>
@@ -110,8 +110,8 @@
         <!-- SUBMIT -->
         <item id="btnTransfer">Enviar</item>
         <item id="transferHead">Última Etapa</item>
-        <item id="transferTextAbove">{{{h1}}}Pronto para Enviar{{{/h1}}}{{{br/}}}{{{br/}}} {{{h2}}}Por favor, clique no botão &quot;Enviar&quot; para transmitir seus resultados..{{{/h2}}}</item>
-        <item id="transferTextBelow">Se a mensagem de confirmação de envio não aparecer, {{{br/}}}por favor, aguarde alguns minutos e clique no botão de enviar novamente.</item>
+        <item id="transferTextAbove">{{{h1}}}Pronto para Enviar o primeiro bloco de afirmações{{{/h1}}}{{{br/}}}{{{br/}}} {{{h2}}}Clique no botão “Enviar” para transmitir seus resultados.{{{/h2}}}</item>
+        <item id="transferTextBelow">Se a mensagem de envio não aparecer, aguarde alguns minutos e clique novamente no botão “Enviar”.</item>
         <item id="transferOkModalHeader">Sucesso - O questionário foi enviado.</item>   
         <item id="transferOkModalText">Muito obrigado pela contribuição!</item>
         <item id="transferFailModalHeader">Conexão com o servidor falhou</item>   
